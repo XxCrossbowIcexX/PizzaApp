@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PizzaAppUpdate/1.0.0": {
+        "dependencies": {
+          "Octokit": "9.0.0",
+          "SharpCompress": "0.34.1"
+        },
+        "runtime": {
+          "PizzaAppUpdate.dll": {}
+        }
+      },
+      "Octokit/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "SharpCompress/0.34.1": {
+        "dependencies": {
+          "ZstdSharp.Port": "0.7.2"
+        },
+        "runtime": {
+          "lib/net6.0/SharpCompress.dll": {
+            "assemblyVersion": "0.34.1.0",
+            "fileVersion": "0.34.1.0"
+          }
+        }
+      },
+      "ZstdSharp.Port/0.7.2": {
+        "runtime": {
+          "lib/net6.0/ZstdSharp.dll": {
+            "assemblyVersion": "0.7.2.0",
+            "fileVersion": "0.7.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PizzaAppUpdate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Octokit/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mQZMCTZavxd9IzTkRaRLxJtFE5uTOJ2Uia5KDwnHiBBFjvnG4BJf56RV1aPZsVdqiKlqRmxbLrkU8DVlmRDrSA==",
+      "path": "octokit/9.0.0",
+      "hashPath": "octokit.9.0.0.nupkg.sha512"
+    },
+    "SharpCompress/0.34.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WttRM/J/ktUwM3hRPxRYux1AOT+TGLqab34ZNBGTZRChHtpkJXFGHJ/cZCyNOH0OqpCNDdOsHhzxOVYkx4WoGw==",
+      "path": "sharpcompress/0.34.1",
+      "hashPath": "sharpcompress.0.34.1.nupkg.sha512"
+    },
+    "ZstdSharp.Port/0.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mT6Pb7qzDGapJ2ic4dAFqbzHpM+qgnasQIGR/Sofrk0fmKTQSTljG55OFXHbDJczLZWnUAFsg4bKR81uHiKzPg==",
+      "path": "zstdsharp.port/0.7.2",
+      "hashPath": "zstdsharp.port.0.7.2.nupkg.sha512"
+    }
+  }
+}
